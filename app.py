@@ -7,7 +7,7 @@ app =Flask(__name__)
 
 def home():
     return jsonify({
-        "message": "welcome to the home page MR Gopi Borra how are you",
+        "message": "welcome to the home page MR Gopi Borra",
         "Status": "Success"    })
     
 if __name__ =="__main__":
